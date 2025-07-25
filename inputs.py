@@ -4,10 +4,11 @@ class Inputs:
 
         print("\'1\' STACK")
         print("\'2\' Queue")
-        print("\'3\' LinkedList")
-        print("\'4\' Decision Tree")
-        print("\'5\' Graph")
-        print("\'6\' Exit")
+        print("\'3\' Circular Queue")
+        print("\'4\' LinkedList")
+        print("\'5\' Decision Tree")
+        print("\'6\' Graph")
+        print("\'7\' Exit")
 
         while True:
             try:
@@ -21,7 +22,7 @@ class Inputs:
 
     @staticmethod
     def choice_stack():
-        print(print("\n\t\t--- STACK OPERATIONS ---"))
+        print("\n\t\t--- STACK OPERATIONS ---")
         
         print("\'1\' PUSH")
         print("\'2\' POP")
@@ -32,7 +33,7 @@ class Inputs:
     
     @staticmethod
     def choice_queue():
-        print(print("\n\t\t--- QUEUE OPERATIONS ---"))
+        print("\n\t\t--- QUEUE OPERATIONS ---")
         
         print("\'1\' ENQUEUE")
         print("\'2\' DEQUEUE")
@@ -40,3 +41,14 @@ class Inputs:
         print("\'4\' DISPLAY")
         print("\'5\' EXIT")
         return input("\nEnter your choice of operation from (1-5) in numerics: ")
+
+    @staticmethod
+    def choice_queue():
+        print("\n\t\t--- QUEUE OPERATIONS ---")
+        print("\'1\' ENQUEUE")
+        print("\'2\' DEQUEUE")
+        print("\'3\' PEEK")
+        print("\'4\' DISPLAY")
+        print("\'5\' EXIT")
+        return input("\nEnter your choice of operation from (1-5) in numerics: ")
+        

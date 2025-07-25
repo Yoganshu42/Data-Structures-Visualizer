@@ -1,6 +1,7 @@
 from stack import StackOperations
 from queue_ds import QueueOperations
 from inputs import Inputs
+from circular_queue import CircularQueueOperations
 
 print("\t\t\t--- WELCOME TO DATA STRUCTURE VISUALIZER ---")
 
@@ -15,12 +16,15 @@ def main():
             q = QueueOperations()
             q.run()
         if ds == 3:
-            pass
+            cq = CircularQueueOperations()
+            cq.run()
         if ds == 4:
             pass
         if ds == 5:
             pass
         if ds == 6:
+            pass
+        if ds == 7:
             print("Thanks for using The DATA STRUCTURE VISUALIZER")
             exit()
 
