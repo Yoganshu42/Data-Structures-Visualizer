@@ -8,8 +8,14 @@ class Queue:
         self.items.append(item)
 
     def dequeue(self):
+        place = int(input("Enter the position of the item to dequeue 'f' for first item or 'l' for last item: "))
         if not self.is_empty():
-            return self.items.pop(0)
+            if place == 'f':
+                return self.items.pop(0)
+            elif place == 'l':
+                return self.items.pop(-1)
+            else:
+                return "Invalid Position! Enter input from 'f' or 'l'."
         else:
             return "Queue is empty!"
             
