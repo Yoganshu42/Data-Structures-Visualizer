@@ -94,5 +94,5 @@ class CircularQueueOperations:
                     print(f"Queue content:")    
                     cq.display()
                 elif choice in ['5']:
-                    print("Exiting...")
+                    print("Exiting...\n\n")
                     break

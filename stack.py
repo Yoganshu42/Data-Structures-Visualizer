@@ -52,5 +52,5 @@ class StackOperations(Stack):
                 elif choice in ['4']:
                     print(f"STACK content:{s.display()}")    
                 elif choice in ['5']:
-                    print("Exiting...")
+                    print("Exiting...\n\n")
                     break

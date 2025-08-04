@@ -2,6 +2,7 @@ from stack import StackOperations
 from queue_ds import QueueOperations
 from inputs import Inputs
 from circular_queue import CircularQueueOperations
+from singly_linked_list import ListOperations
 
 print("\t\t\t--- WELCOME TO DATA STRUCTURE VISUALIZER ---")
 
@@ -19,7 +20,8 @@ def main():
             cq = CircularQueueOperations()
             cq.run()
         if ds == 4:
-            pass
+            sll = ListOperations()
+            sll.run()
         if ds == 5:
             pass
         if ds == 6:

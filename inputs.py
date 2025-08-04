@@ -5,7 +5,7 @@ class Inputs:
         print("\'1\' STACK")
         print("\'2\' Queue")
         print("\'3\' Circular Queue")
-        print("\'4\' LinkedList")
+        print("\'4\' Singly Linked List")
         print("\'5\' Decision Tree")
         print("\'6\' Graph")
         print("\'7\' Exit")
@@ -13,10 +13,10 @@ class Inputs:
         while True:
             try:
                 choice = input("\nEnter the Data structure you want to visualize: ")
-                if choice in ['1','2','3','4','5','6']:
+                if choice in ['1','2','3','4','5','6','7']:
                     return int(choice)
                 else:
-                    print("Plese enter a number between 1-5.")
+                    print("Plese enter a number between 1-7.")
             except Exception:
                 print("Error: Invalid Input! Please enter a valid number.")
 
@@ -51,4 +51,17 @@ class Inputs:
         print("\'4\' DISPLAY")
         print("\'5\' EXIT")
         return input("\nEnter your choice of operation from (1-5) in numerics: ")
+
+    @staticmethod
+    def choice_LinkedList():
+        print("\n\t\t--- Singly Linked List OPERATIONS ---")
+        print("\'1\' Insert at Head")
+        print("\'2\' Insert at Tail")
+        print("\'3\' Insert at Mid")
+        print("\'4\' Delete at Head")
+        print("\'5\' Delete at Tail")
+        print("\'6\' Delete at Mid")
+        print("\'7\' Display List")
+        print("\'8\' EXIT")
+        return input("\nEnter your choice of operation from (1-8) in numerics: ")
         
